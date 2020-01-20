@@ -1,0 +1,11 @@
+5.	How is the web different than the internet?
+The web is different from the internet in that the web derived from an objective to make a space where information could be shared amongst everyone. The web is able to interconnect information in a non-linear fashion by use of hyperlinks through the internet.   
+
+6.	Briefly describe how the internet works.
+The internet is made of networks upon networks connected directly or indirectly to what is essentially hidden wires spanning across the earth. Servers connected to the internet are able to communicate with each other through IP (internet Protocol address) example google, home computers use an internet service provider to connect to the internet. When information journeys from its place of origin be from a cell phone or home computer etc. it is broken up into smaller pieces known as packets that travel through routers and become reconstructed when reach their destination server. 
+
+7.	What is a directory, and what is its relationship to files?
+A directory (“can be referred to as a folder”) is composed of files that are arranged in a hierarchy file system, in that there is a root directory and branches off into subdirectories.  
+
+8.	Why is using a VCS beneficial?
+Using a VCS (version control system) is beneficial because a developer is able to work on a file while seeing the differences they make through the duration of their work. If there is something the developer doesn’t like they can look back and change to an earlier version of the file. This permits multiple developers to interact on a file with minimum confusion of who is doing what and allows for less conflicts. 
