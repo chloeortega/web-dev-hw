@@ -8,4 +8,4 @@ The internet is made of networks upon networks connected directly or indirectly 
 A directory (“can be referred to as a folder”) is composed of files that are arranged in a hierarchy file system, in that there is a root directory and branches off into subdirectories.  
 
 8.	Why is using a VCS beneficial?
-Using a VCS (version control system) is beneficial because a developer is able to work on a file while seeing the differences they make through the duration of their work. If there is something the developer doesn’t like they can look back and change to an earlier version of the file. This permits multiple developers to interact on a file with minimum confusion of who is doing what and allows for less conflicts. 
+Using a VCS (version control system) is beneficial because a developer is able to work on a file while seeing the differences they make through the duration of their work. If there is something the developer doesn’t like they can look back and change to an earlier version of the file. This permits multiple developers to interact on a file with minimum confusion of who is doing what and allows for less issues. 
