@@ -1,0 +1,15 @@
+6.	Briefly describe one way how data travels on the internet.
+
+There is more than one-way data can travel on the internet to bring you the content you request including radio waves, electronic pulses, and light beams, regardless of how content gets to you it revolves around internet protocols. Say you want to play a song from a music streaming service such as Pandora or Spotify, when you ask for the song from the website it will send the song as packets across the internet, these packets will contain an IP address telling where it is going to and where it came from, routers will send them on a path that is “less congested” until it reaches you. When the packets reach you, TCP will make sure all the packets are received and if they are your song will play.
+
+7.	What is the relationship between an IP address and the DNS?
+
+IP address (internet protocol address) and DNS (domain name system) work hand in hand. The IP address is an address giving its country/network, region/network, subnetwork and device information. The DNS matches the address to an easy recognizable name, so your device will use the DNS to locate a domain name such as google or youtube internet using its IP address.
+
+8.	What is a cookie?
+
+A cookie is data that the browser on your device will save so the website will recognize who you are, it is like an employee ID card that associates a number with you. The next time you go to the website your device will send the cookie data so the website will know it’s you requesting whatever action.
+
+9.	List the three basic parts of a URL.
+
+The three basic parts of a URL (uniform resource locator) are protocol, domain name, and path that leads to a file/page/query.
