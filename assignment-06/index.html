@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description"
+    content="...">
+    <meta name="author"
+    content="Chloe Ortega">
+    <title>Assignment 06</title>
+    <style>
+      table, td {border: 1px solid green; padding: 5px}
+    </style>
+  </head>
+
+  <body>
+    <h1>Barnes and Nobles</h1>
+    <address>
+      530 S 24th Street West<br />
+      Billings, MT 59102<br />
+      406-655-9500<br />
+      <a href="mailto:barnesandnoble@m.bn.com">Contact Store</a>
+      <!-- Not sure if this is an official email, but it's what is in my address book when I recieve emails from them -->
+    </address>
+
+    <br><br>
+
+    <table>
+
+      <tr>
+        <td>Day</td>
+        <td>Store Hours</td>
+      </tr>
+
+      <tr>
+        <td>Monday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Tuesday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Thursday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Friday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Saturday</td>
+        <td>9am-9pm</td>
+      </tr>
+
+      <tr>
+        <td>Sunday</td>
+        <td>10am-7pm</td>
+      </tr>
+
+    </table>
+
+    <br>
+
+    <form action="http://example.com/registration.php" method="post">
+
+      What is your favorite genre of books?
+      <input type="radio" name="genre" value="poetry" checked="checked"/> Poetry
+      <input type="radio" name="genre" value="romance" checked="checked"/> Romance
+      <input type="radio" name="genre" value="action" checked="checked"/> Action
+      <input type="radio" name="genre" value="nonfiction" checked="checked"/> Nonfiction
+      <input type="radio" name="genre" value="classic" checked="checked"/> Classic
+      <input type="radio" name="genre" value="graphic novel" checked="checked"/> Graphic Novel
+      <input type="radio" name="genre" value="other" checked="checked"/> Other
+
+
+
+      <br><br>
+
+      What is your favorite book?
+      <input type="text" name="favoritebook" maxlength"30">
+
+      <br><br>
+
+      Why is it your favorite book?
+      <br>
+      <textarea cols="40" rows="10">
+        I love books!
+      </textarea>
+
+      <br><br>
+
+      <input type="button" value="Submit">
+    </form>
+  </body>
+</html>
