@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.3;
+}
+
+.square {
+  float: left;
+  width: 25%;
+  height: 975px;
+  /* This will make the squares line up next to each other. */
+
+}
+
+#brown {
+  background-color: #590c10;
+}
+
+#red {
+  background-color: #a1120d;
+
+}
+
+#orange {
+  background-color: #de9910;
+}
+
+#yellow {
+  background-color: #faf5a0;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+}
