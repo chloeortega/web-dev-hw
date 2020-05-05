@@ -1,0 +1,466 @@
+/* INDEX DESIGN */
+
+body{
+  background-color: #ffe8e5;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 1.2em;
+
+}
+
+.title{
+  text-align: center;
+
+
+}
+
+h1{
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  color: #423333;
+
+  border-bottom-style: solid;
+  border-color: #4C4C4B;
+
+}
+
+h2{
+  color: #423333;
+
+
+}
+
+.content{
+  float: left;
+  width: 100%;
+  height: 300px;
+
+}
+
+#home-info{
+
+  color: white;
+  text-align: center;
+  background-color: #C49899;
+  width: 100%;
+  max-width: 500px;
+  min-width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 850px;
+  left: 530px;
+
+  padding: 1em;
+  overflow: scroll;
+
+}
+
+#left {
+  background-color: #ffe8e5;
+  position: absolute;
+  top: 300px;
+  left: 190px;
+}
+
+#middle{
+  background-color: #ffe8e5;
+  position:absolute;
+  top: 300px;
+  left: 640px;
+
+}
+
+#right{
+  background-color: #ffe8e5;
+  position: absolute;
+  top: 300px;
+  left: 990px;
+
+}
+
+.page-decoration{
+  position: absolute;
+  top: 3650px;
+  left: 710px;
+}
+
+/*
+
+This code will make it easier to make all images smaller but won't be able to resize as you want
+
+img {
+  width: 20%;
+
+}*/
+
+
+
+
+/* ABOUT DESIGN */
+#about-info {
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+  border-bottom-style: solid;
+  border-color: #B78E80;
+
+  width: 100%;
+  max-width: 900px;
+  min-width: 800px;
+  height: 705px;
+  position: absolute;
+  top: 255px;
+
+  padding: 1em;
+  /*overflow:scroll;*/
+
+}
+
+#Chloe-Ortega{
+  text-align: center;
+  border-color: #DFB2A9;
+  position: absolute;
+  top: 186px;
+  left: 50px;
+
+  padding: 1em;
+  width: 150%;
+  height: 300px;
+
+}
+
+
+
+
+
+
+
+
+/* SERVICES (PORTFOLIO) DESIGN */
+
+/* Images for Portfolio */
+#portfolio1 {
+  background-color: #F6CFCA;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  padding: 1em;
+
+
+}
+
+#portfolio2 {
+  background-color: #F6CFCA;
+  position: absolute;
+  top: 700px;
+  left: 550px;
+
+  padding: 1em;
+
+
+
+}
+
+#portfolio3 {
+  background-color: #F6CFCA;
+  position: absolute;
+  top: 1350px;
+  left: 500px;
+  padding: 1em;
+
+
+}
+
+#portfolio4 {
+  background-color: #F6CFCA;
+
+  position: absolute;
+  top: 1900px;
+  left: 500px;
+  padding: 1em;
+
+
+
+}
+
+#portfolio5 {
+  background-color: #F6CFCA;
+  position: absolute;
+  top: 2450px;
+  left: 500px;
+  padding: 1em;
+
+
+}
+
+#portfolio6{
+  background-color: #F6CFCA;
+  position: absolute;
+  top: 3000px;
+  left: 550px;
+  padding: 1em;
+
+
+}
+
+
+/* Corresponding Portfolio Information, utilizing hover */
+#portfolio1-info{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 250px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio1-info:hover {
+  text-align: left;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 250px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+#portfolio2-info{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 840px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio2-info:hover{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 840px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+#portfolio3-info{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 1450px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio3-info:hover{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+
+  background-color: #C49899;
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 1450px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+#portfolio4-info{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 2000px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio4-info:hover{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 2000px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+#portfolio5-info{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 2550px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio5-info:hover{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 2550px;
+  left: 130px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+#portfolio6-info{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 3150px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 0.1;
+
+}
+
+#portfolio6-info:hover{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  background-color: #C49899;
+
+
+  width: 100%;
+  max-width: 700px;
+  min-width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 3150px;
+  left: 840px;
+
+  padding: 1em;
+  opacity: 1.0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT DESIGN */
+#contact-info{
+  text-align: center;
+  background-color: #C49899;
+
+  padding: 1em;
+
+}
